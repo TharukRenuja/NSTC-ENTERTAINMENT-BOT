@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2021 Tharuk , This file is part of RayaRobot
+# Copyright (c) 2021 Tharuk , This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -14,7 +14,7 @@
 
 
 import threading
-from rayarobot.helpers.database import SESSION, BASE
+from nstcentertainmentbot.helpers.database import SESSION, BASE
 from sqlalchemy import Column, UnicodeText, Numeric
 
 

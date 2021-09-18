@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -17,10 +17,10 @@ import requests as r
 import subprocess, random
 from time import sleep
 
-from acutebot.helpers.database import users_sql as sql
-from acutebot.helpers.database.favorites_sql import fav_count
-import acutebot.helpers.strings as st
-from acutebot import dp, typing, DEV_ID, LOG
+from nstcentertainmentbot.helpers.database import users_sql as sql
+from nstcentertainmentbot.helpers.database.favorites_sql import fav_count
+import nstcentertainmentbot.helpers.strings as st
+from nstcentertainmentbot import dp, typing, DEV_ID, LOG
 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, TelegramError
 from telegram.ext.dispatcher import run_async

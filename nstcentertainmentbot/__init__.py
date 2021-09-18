@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -35,7 +35,7 @@ if ENV:
 
 
 else:
-    from acutebot.config import Config
+    from nstcentertainmentbot.config import Config
 
     TOKEN = Config.TOKEN
     WORKERS = Config.WORKERS

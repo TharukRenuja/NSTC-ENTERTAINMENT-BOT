@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -17,9 +17,9 @@ from telegram.ext import CommandHandler
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
-from acutebot import dp, typing
-from acutebot.helpers.spthelper import SpotifyClient, get_spotify_data
-import acutebot.helpers.strings as st
+from nstcentertainmentbot import dp, typing
+from nstcentertainmentbot.helpers.spthelper import SpotifyClient, get_spotify_data
+import nstcentertainmentbot.helpers.strings as st
 
 
 def authorize(update, user_id):

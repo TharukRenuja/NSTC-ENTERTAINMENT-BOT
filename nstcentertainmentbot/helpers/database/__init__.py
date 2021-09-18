@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2021 Tharuk , This file is part of RayaRobot
+# Copyright (c) 2021 Tharuk , This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -14,7 +14,7 @@
 
 
 
-from rayarobot import DB_URI
+from nstcentertainmentbot import DB_URI
 
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base

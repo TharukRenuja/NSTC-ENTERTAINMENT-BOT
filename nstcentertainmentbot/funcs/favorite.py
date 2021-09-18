@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -17,9 +17,9 @@ from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
-from acutebot import dp, typing
-import acutebot.helpers.strings as st
-import acutebot.helpers.database.favorites_sql as sql
+from nstcentertainmentbot import dp, typing
+import nstcentertainmentbot.helpers.strings as st
+import nstcentertainmentbot.helpers.database.favorites_sql as sql
 
 
 @run_async

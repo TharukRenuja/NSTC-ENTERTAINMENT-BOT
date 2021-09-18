@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2021 Tharuk , This is a part of RayaRobot
+# Copyright (c) 2021 Tharuk , This is a part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -16,7 +16,7 @@
 import threading
 
 from sqlalchemy import Column, Integer, UnicodeText
-from rayarobot.helpers.database import SESSION, BASE
+from nstcentertainmentbot.helpers.database import SESSION, BASE
 
 
 class SpotifyCreds(BASE):

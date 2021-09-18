@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -17,8 +17,8 @@ from pyfy import Spotify as Pyfy, ClientCreds, UserCreds
 from pyfy.excs import ApiError
 from dataclasses import dataclass
 
-from acutebot import TOKEN, SPT_CLIENT_SECRET, SPT_CLIENT_ID, APP_URL
-from acutebot.helpers.database.spotify_sql import get_sptuser
+from nstcentertainmentbot import TOKEN, SPT_CLIENT_SECRET, SPT_CLIENT_ID, APP_URL
+from nstcentertainmentbot.helpers.database.spotify_sql import get_sptuser
 
 import typing
 
@@ -85,7 +85,7 @@ class SpotifyClient(Pyfy):
             client_creds=ClientCreds(
                 client_id=SPT_CLIENT_ID,
                 client_secret=SPT_CLIENT_SECRET,
-                redirect_uri=APP_URL + "acutebot/webserver",
+                redirect_uri=APP_URL + "nstcentertainmentbot/webserver",
                 scopes=scopes,
             ),
             user_creds=user_creds,

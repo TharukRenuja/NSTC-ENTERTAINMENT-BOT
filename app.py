@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -15,9 +15,9 @@
 
 import os, tornado
 from telegram import Bot
-from acutebot import TOKEN
-from acutebot.helpers.database.spotify_sql import update_creds
-from acutebot.helpers.spthelper import SpotifyClient
+from nstcentertainmentbot import TOKEN
+from nstcentertainmentbot.helpers.database.spotify_sql import update_creds
+from nstcentertainmentbot.helpers.spthelper import SpotifyClient
 
 
 bot = Bot(TOKEN)
@@ -46,7 +46,7 @@ class SpotifyCallback(tornado.web.RequestHandler):
             self.redirect("https://t.me/" + bot.username)
 
 
-urls = [(r"/", MainHandler), (r"/acutebot/webserver", SpotifyCallback)]
+urls = [(r"/", MainHandler), (r"/nstcentertainmentbot/webserver", SpotifyCallback)]
 PORT = os.environ.get("PORT", 8888)
 
 

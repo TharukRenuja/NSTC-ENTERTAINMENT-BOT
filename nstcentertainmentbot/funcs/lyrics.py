@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -20,8 +20,8 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHa
 from telegram.error import BadRequest
 from telegram import ForceReply
 
-from acutebot import dp, typing, LOG, GENIUS
-from acutebot.helpers import strings as st
+from nstcentertainmentbot import dp, typing, LOG, GENIUS
+from nstcentertainmentbot.helpers import strings as st
 
 ARTIST, LYRICS = range(2)
 SONGDICT = {}

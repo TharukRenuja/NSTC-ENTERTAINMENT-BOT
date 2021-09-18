@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -22,8 +22,8 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHa
 from telegram import ForceReply, ReplyKeyboardMarkup
 from pyrogram import Client
 
-from acutebot import dp, typing, ARLTOKEN, LOG, APIID, APIHASH
-from acutebot.helpers import strings as st
+from nstcentertainmentbot import dp, typing, ARLTOKEN, LOG, APIID, APIHASH
+from nstcentertainmentbot.helpers import strings as st
 
 MUSIC, ARTIST, SENDMUSIC = range(3)
 MUSICDICT = {}
@@ -131,7 +131,7 @@ def sendmusic(update, context):
             context.bot.sendAudio(
                 chat.id,
                 open(file, "rb"),
-                caption="Via @acutebot 🎸",
+                caption="Via @nstcentertainmentbot 🎸",
                 title=title,
                 performer=artist,
                 duration=duration,
@@ -157,7 +157,7 @@ def send_file_pyro(bot_token, file, chatid, title, artist, duration):
         bot.send_audio(
             chat_id=chatid,
             audio=open(file, "rb"),
-            caption="Via @acutebot 🎸",
+            caption="Via @nstcentertainmentbot 🎸",
             title=title,
             duration=duration,
             performer=artist,

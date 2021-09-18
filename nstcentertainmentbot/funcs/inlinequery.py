@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -18,11 +18,11 @@ from telegram.ext import InlineQueryHandler
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 
-from acutebot import dp, TMDBAPI
-from acutebot.helpers import strings as st
-from acutebot.helpers.parsedata import article
-from acutebot.helpers.keyboard import keyboard
-from acutebot.helpers.database import users_sql as sql
+from nstcentertainmentbot import dp, TMDBAPI
+from nstcentertainmentbot.helpers import strings as st
+from nstcentertainmentbot.helpers.parsedata import article
+from nstcentertainmentbot.helpers.keyboard import keyboard
+from nstcentertainmentbot.helpers.database import users_sql as sql
 
 
 pic_url = "https://image.tmdb.org/t/p"

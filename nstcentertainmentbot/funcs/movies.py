@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -26,10 +26,10 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from acutebot import dp, TMDBAPI, typing
-from acutebot.helpers import strings as st
-from acutebot.helpers.parsedata import byname, currency, sort_caps
-from acutebot.helpers.keyboard import keyboard
+from nstcentertainmentbot import dp, TMDBAPI, typing
+from nstcentertainmentbot.helpers import strings as st
+from nstcentertainmentbot.helpers.parsedata import byname, currency, sort_caps
+from nstcentertainmentbot.helpers.keyboard import keyboard
 
 
 base_url = "https://api.themoviedb.org/3"

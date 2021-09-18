@@ -1,2 +1,2 @@
-worker: python3 -m acutebot
+worker: python3 -m nstcentertainmentbot
 web: python3 app.py

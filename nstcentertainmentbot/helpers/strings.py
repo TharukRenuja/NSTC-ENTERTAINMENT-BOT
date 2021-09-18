@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2021 Tharuk , This file is part of RayaRobot
+# Copyright (c) 2021 Tharuk , This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -13,7 +13,7 @@
 # SOFTWARE.
 
 
-from rayarobot import __version__
+from nstcentertainmentbot import __version__
 from platform import python_version
 from telegram import __version__ as _libv_
 
@@ -111,7 +111,7 @@ music & can view song lyrics using me! Just click the button \
 below to get started with list of possible commands...
 
 You can also search movies, tvshows & \
-anime inline! just type <pre>@RayaRobot</pre> in \
+anime inline! just type <pre>@nstcentertainmentbot</pre> in \
 your message box and follow the instructions.
 
 And don't forget to smile, atleast once in a while ;)

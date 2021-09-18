@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # MIT License
-# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of AcuteBot
+# Copyright (c) 2020 Stɑrry Shivɑm // This file is part of nstcentertainmentbot
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -16,9 +16,9 @@
 import os, sys, importlib
 from threading import Thread
 
-from acutebot import LOG, dp, updater, DEV_ID
-from acutebot.funcs import ALL_FUNCS
-import acutebot.helpers.strings as st
+from nstcentertainmentbot import LOG, dp, updater, DEV_ID
+from nstcentertainmentbot.funcs import ALL_FUNCS
+import nstcentertainmentbot.helpers.strings as st
 
 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
@@ -28,7 +28,7 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, Filters
 
 # Import all funcs in main
 for func_name in ALL_FUNCS:
-    imported_module = importlib.import_module("acutebot.funcs." + func_name)
+    imported_module = importlib.import_module("nstcentertainmentbot.funcs." + func_name)
 
 
 class Starter:
