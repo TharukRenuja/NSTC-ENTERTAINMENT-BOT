@@ -46,7 +46,7 @@ class SpotifyCallback(tornado.web.RequestHandler):
             self.redirect("https://t.me/" + bot.username)
 
 
-urls = [(r"/", MainHandler), (r"/nstcentertainmentbot/webserver", SpotifyCallback)]
+urls = [(r"/", MainHandler), (r"/acutebot/webserver", SpotifyCallback)]
 PORT = os.environ.get("PORT", 8888)
 
 
