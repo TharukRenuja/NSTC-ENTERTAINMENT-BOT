@@ -11,3 +11,4 @@ deezloader
 mutagen
 speedtest-cli>=2.0.2
 flask
+postgres
