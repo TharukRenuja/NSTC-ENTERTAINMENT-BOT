@@ -13,7 +13,8 @@
 # SOFTWARE.
 
 
-
+import os
+import sys
 from nstcentertainmentbot import DB_URI
 
 from sqlalchemy import create_engine
