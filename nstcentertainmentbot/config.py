@@ -9,7 +9,7 @@ class Config(object):
     SPT_CLIENT_SECRET = os.environ.get("SPT_CLIENT_SECRET")
     SPT_CLIENT_ID = os.environ.get("SPT_CLIENT_ID")
     DEBUG = bool(os.environ.get("DEBUG", False))
-    ARLTOKEN = os.environ.get("ARL")
+    ARL = os.environ.get("ARL")
     APP_URL = os.environ.get("APP_URL")
     APIID = os.environ.get("APIID")
     APIHASH = os.environ.get("APIHASH")
